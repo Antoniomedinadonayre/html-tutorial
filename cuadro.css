@@ -1,0 +1,56 @@
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.card{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url(Banquete\ para\ 2.jpg);
+    background-size: cover;
+}
+
+.content{
+    width: 100%;
+    height: 30%;
+    margin-top: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px 20px;
+    /*justify-content: center;*/
+    background-color: rgba(0, 0, 0, 0.068);
+    backdrop-filter: blur(5px);
+    border-radius: 0px 0px 10px 10px;
+    
+}
+   
+h2{
+    margin-bottom: 2px;
+    font-family: 'Public Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+color: #FFFFFF;
+}
+
+a{  
+font-family: 'Public Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 8px;
+line-height: 10px;
+text-decoration: none;
+color: #FFFFFF;
+}
